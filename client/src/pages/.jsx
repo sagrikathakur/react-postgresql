@@ -1,15 +1,15 @@
 import React from 'react'
 import { Sparkles } from 'lucide-react'
 
-const Dashboard = () => {
+const WriteArticle = () => {
   return (
     <div className='flex flex-col items-center justify-center min-h-[60vh] text-center'>
       <div className='w-20 h-20 rounded-3xl bg-primary/10 flex items-center justify-center text-primary mb-6 animate-pulse'>
         <Sparkles size={40} />
       </div>
-      <h1 className='text-4xl font-black text-slate-900 mb-4'>AI Dashboard</h1>
+      <h1 className='text-4xl font-black text-slate-900 mb-4'>WriteArticle</h1>
       <p className='text-slate-500 max-w-md mx-auto text-lg'>
-        Welcome to your AI workspace! Select a tool from the sidebar to start creating amazing content.
+        We are building something amazing here. This tool will be available very soon!
       </p>
       
       <div className='mt-10 grid grid-cols-2 md:grid-cols-4 gap-4 w-full max-w-2xl text-xs font-bold text-slate-400'>
@@ -22,4 +22,4 @@ const Dashboard = () => {
   )
 }
 
-export default Dashboard
+export default WriteArticle
